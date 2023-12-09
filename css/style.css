@@ -57,8 +57,10 @@ main
 {
     display: flex;
     flex-flow: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    text-align: center;
+    height: 100%;
     color: white;
     font-size: 20px;
     font-weight: 400;
@@ -82,4 +84,26 @@ main
     border: 1px solid white;
 }
 
+#contact-information-block
+{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    text-align: right;
+    width: 250px;
+    height: 100%;
+    color: white;
+    font: 12px;
+}
+
+#contact-information-block a
+{
+    text-decoration: none;
+    color: white;
+}
+
+#contact-information-block span
+{
+    margin-left: 15px;
+}
 /* END of Header Styles */
