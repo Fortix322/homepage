@@ -37,7 +37,7 @@ main
     max-width: 1000px;
     background-color: white;
     width: 40%;
-    height: 90%;
+    height: 95%;
     box-shadow: 0px 7px 26px -6px #444444;
 }
 
@@ -119,7 +119,39 @@ main
     flex-grow: 1;
     justify-content: space-between;
     align-items: center;
-    height: auto;
+    padding: 25px;
+}
+
+#personal-information-block
+{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.content-section + .content-section
+{
+    margin-top: 40px;
+}
+
+.section-title
+{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.section-description
+{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.section-text
+{
+    font-size: 13px
 }
 
 /* END of Main Content Styles */
