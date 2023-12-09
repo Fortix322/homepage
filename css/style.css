@@ -32,6 +32,8 @@ main
 
 #main-frame
 {
+    display: flex;
+    flex-flow: column;
     max-width: 1000px;
     background-color: white;
     width: 40%;
@@ -106,4 +108,18 @@ main
 {
     margin-left: 15px;
 }
+
 /* END of Header Styles */
+
+/* Main Content Styles */
+
+#main-frame-content
+{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+/* END of Main Content Styles */
