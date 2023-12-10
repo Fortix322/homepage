@@ -114,20 +114,12 @@ main
 
 /* Main Content Styles */
 
-#main-frame-content
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px;
-}
-
 #personal-information-block
 {
-    height: 100%;
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
+    padding: 25px;
 }
 
 .section-row
@@ -158,7 +150,51 @@ main
 
 /* END of Main Content Styles */
 
+/* Experience Gallery Styles */
+
+.experience-carousel
+{
+    height: 100%;
+}
+
+.experience-cell
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+/* position dots in carousel */
+.flickity-page-dots 
+{
+    bottom: 0px;
+}
+
+/* white circles */
+.flickity-page-dots .dot 
+{
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background: transparent;
+    border: 2px solid white;
+}
+
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected 
+{
+    background: white;
+}
+
+/* END of Experience Gallery Styles */
+
 /* Utils style */
+
+.flex-column
+{
+    display: flex;
+    flex-flow: column;
+}
 
 .flex-grow-1
 {
