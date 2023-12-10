@@ -134,7 +134,6 @@ main
 {
     display: flex;
     justify-content: flex-start;
-    margin-top: 15px;
 }
 
 .section-title
@@ -149,25 +148,12 @@ main
     font-weight: bold;
     font-size: 14px;
     margin-bottom: 5px;
-    margin-top: 10px;
+    margin-top: 10px
 }
 
 .section-text
 {
     font-size: 12px
-}
-
-.content-row
-{
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 15px;
-    gap: 30px;
-}
-
-#content-list
-{
-    margin-left: 15px;
 }
 
 /* END of Main Content Styles */
