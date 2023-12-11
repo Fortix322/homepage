@@ -126,6 +126,7 @@ main
 {
     display: flex;
     justify-content: flex-start;
+    gap: 5px;
 }
 
 .section-title
@@ -161,7 +162,56 @@ main
 {
     width: 100%;
     height: 100%;
-    background-color: black;
+    display: flex;
+}
+
+.experience-cell p
+{
+    position: absolute;
+
+    text-align: center;
+    width: 100%;
+    text-wrap: wrap;
+    height: fit-content;
+    backdrop-filter: blur(10px);
+}
+
+.experience-cell
+{
+   text-decoration: none;
+   color: black
+}
+
+#exp1
+{
+    background: url("/assets/exp1.png") no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#exp2
+{
+    background: url("/assets/exp2.png") no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#exp3
+{
+    background: url("/assets/exp3.png") no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#exp4
+{
+    background: url("/assets/exp4.png") no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 /* position dots in carousel */
@@ -177,18 +227,25 @@ main
     height: 12px;
     opacity: 1;
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid black;
 }
 
 /* fill-in selected dot */
 .flickity-page-dots .dot.is-selected 
 {
-    background: white;
+    background: black;
 }
 
 /* END of Experience Gallery Styles */
 
 /* Utils style */
+
+.flex-row
+{
+    display: flex;
+    flex-flow: row;
+}
+
 
 .flex-column
 {
