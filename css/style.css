@@ -183,7 +183,7 @@ main
 
 #exp1
 {
-    background: url("/assets/exp1.png") no-repeat;
+    background: url("../assets/exp1.png") no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
@@ -191,7 +191,7 @@ main
 
 #exp2
 {
-    background: url("/assets/exp2.png") no-repeat;
+    background: url("../assets/exp2.png") no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
@@ -199,7 +199,7 @@ main
 
 #exp3
 {
-    background: url("/assets/exp3.png") no-repeat;
+    background: url("../assets/exp3.png") no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
@@ -207,7 +207,7 @@ main
 
 #exp4
 {
-    background: url("/assets/exp4.png") no-repeat;
+    background: url("../assets/exp4.png") no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
