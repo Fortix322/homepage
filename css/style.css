@@ -1,0 +1,260 @@
+/* General Styles */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    width: 100%;
+    height: 100%;
+}
+
+body 
+{
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.5;   
+    background-color: #ffdd17;
+    width: 100%;
+    height: 100%;
+}
+
+main
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-frame
+{
+    display: flex;
+    flex-flow: column;
+    max-width: 700px;
+
+    background-color: white;
+    width: 100%;
+    height: 95%;
+    box-shadow: 0px 7px 26px -6px #444444;
+}
+
+/* END of General Styles */
+
+/* Header Styles */
+
+#main-frame header
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+    padding: 25px;
+    background-color: black;
+}
+
+#profile-block
+{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#profile-block h1
+{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#avatar
+{
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+}
+
+#contact-information-block
+{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    text-align: right;
+    width: 250px;
+    height: 100%;
+    color: white;
+    font: 12px;
+}
+
+#contact-information-block a
+{
+    text-decoration: none;
+    color: white;
+}
+
+#contact-information-block span
+{
+    margin-left: 15px;
+}
+
+/* END of Header Styles */
+
+/* Main Content Styles */
+
+#personal-information-block
+{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    padding: 25px;
+}
+
+.section-row
+{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.section-title
+{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.section-description
+{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 10px
+}
+
+.section-text
+{
+    font-size: 12px
+}
+
+/* END of Main Content Styles */
+
+/* Experience Gallery Styles */
+
+.experience-carousel
+{
+    height: 100%;
+}
+
+.experience-cell
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.experience-cell p
+{
+    position: absolute;
+
+    text-align: center;
+    width: 100%;
+    text-wrap: wrap;
+    height: fit-content;
+    backdrop-filter: blur(10px);
+}
+
+.experience-cell
+{
+   text-decoration: none;
+   color: black
+}
+
+#exp1
+{
+    background: url("/assets/exp1.png") no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#exp2
+{
+    background: url("/assets/exp2.png") no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#exp3
+{
+    background: url("/assets/exp3.png") no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#exp4
+{
+    background: url("/assets/exp4.png") no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+/* position dots in carousel */
+.flickity-page-dots 
+{
+    bottom: 0px;
+}
+
+/* white circles */
+.flickity-page-dots .dot 
+{
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background: transparent;
+    border: 2px solid black;
+}
+
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected 
+{
+    background: black;
+}
+
+/* END of Experience Gallery Styles */
+
+/* Utils style */
+
+.flex-row
+{
+    display: flex;
+    flex-flow: row;
+}
+
+
+.flex-column
+{
+    display: flex;
+    flex-flow: column;
+}
+
+.flex-grow-1
+{
+    flex-grow: 1;
+}
+
+/* END of Utils style */
